@@ -1,0 +1,313 @@
+
+.header-link-container-mobile
+    display: none
+
+.header-link-container
+    margin: 0 auto 40px auto
+    padding: 45px 0 45px 0
+    width: 80%
+    display: flex
+    justify-content: space-between
+    border-bottom: 1px solid
+    .header-link
+        font-family: 'Roboto', sans-serif
+        a
+            text-decoration: none
+            color: #828282
+    .header-link-active
+        font-family: 'Roboto', sans-serif
+        font-weight: 900
+        a
+            text-decoration: none
+            color: black
+
+.info-container
+    width: 80%
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    .info-container-name
+        font-size: 40px
+        font-family: 'Roboto', sans-serif
+        font-weight: 900
+        p
+            margin: 0
+    .info-container-prof
+        font-family: 'Roboto', sans-serif
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        p
+            font-weight: 500
+            margin: 0
+    .info-container-switchLang
+        font-family: 'Roboto', sans-serif
+        display: flex
+        align-items: flex-end
+        justify-content: space-around
+        transform: rotate(-90deg)
+        p:nth-child(1)
+            font-weight: 900
+            padding-right: 5px
+            margin-right: 5px
+            border-right: 2px solid
+        p:nth-child(2)
+            margin-left: 5px 
+
+.photo-container
+    margin: 50px auto 0 auto
+    width: 80%
+    height: 400px
+    background-image: url("../img/ebalo.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+
+.about-container
+    padding-bottom: 75px
+    margin-top: 100px
+    height: 300px
+    background-color: #F6F6F6
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    .about-container-item
+        text-align: center
+        font-family: 'Roboto', sans-serif
+        font-weight: 500
+        font-size: 20px
+        padding: 10px
+    h2
+        padding: 10px
+        font-size: 50px
+
+.skills-container
+    padding: 90px 0 90px 0
+    margin: 0 auto
+    width: 80%
+    display: flex
+    align-items: center
+    flex-direction: column
+    h2
+        font-family: 'Roboto', sans-serif
+        font-weight: 900
+        font-size: 50px
+        margin: 0 0 70px 0
+    .skills-container-item
+        width: 100%
+        display: flex
+        justify-content: space-around
+    .skills-container-item:nth-child(2)
+        font-family: 'Roboto', sans-serif
+        font-weight: 500
+        font-size: 25px
+        margin: 0 0 85px 0
+    .skills-container-item:nth-child(3)
+        .skills-container-item-card
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            div:nth-child(1)
+                margin: 0 0 27px 0
+            div:nth-child(2)
+                font-family: 'Roboto', sans-serif
+                font-weight: 500
+                color: #828282
+                margin: 0 0 40px 0
+            div:nth-child(3)
+                display: flex
+                justify-content: center
+                div
+                    margin-right: 10px
+                div:last-child
+                    margin: 0
+            .skills-container-item-card-stars
+                img
+                    margin-right: 5px
+                img:last-child
+                    margin: 0
+    .skills-container-item-card-svg
+        margin-bottom: 30px
+    
+.portfolio-container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    background-color: #F6F6F6
+    padding-top: 80px
+    h2
+        font-family: 'Roboto', sans-serif
+        font-weight: 900
+        font-size: 50px
+        margin-bottom: 80px
+    .portfolio-container-img-one
+        margin-bottom: 20px
+        background-image: url('../img/port-1.png')
+        height: 510px
+        width: 100%
+        background-size: 100%
+        background-repeat: no-repeat 
+    .portfolio-container-img-two
+        margin-bottom: 20px
+        background-image: url('../img/port-2.png')
+        height: 510px
+        width: 100%
+        background-size: 100% 
+        background-repeat: no-repeat
+    .portfolio-container-img-three
+        margin-bottom: 20px
+        background-image: url('../img/port-3.png')
+        height: 510px
+        width: 100%
+        background-size: 100%
+        background-repeat: no-repeat
+    p
+        font-family: 'Roboto', sans-serif
+        font-weight: 500
+        font-size: 15px
+        margin-bottom: 100px
+
+.contact-container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding: 115px 0 0 0
+    h2
+        font-family: 'Roboto', sans-serif
+        font-weight: 900
+        font-size: 50px
+        margin: 0 0 20px 0
+    p
+        font-family: 'Roboto', sans-serif
+        font-weight: 500
+        font-size: 20px
+        margin: 0
+    #welcome
+        margin-bottom: 30px
+    a
+        text-decoration: none
+    .contact-container-button
+        background-color: black
+        color: white
+        font-family: 'Roboto', sans-serif
+        font-weight: 900
+        font-size: 30px
+        border-radius: 30px
+        padding: 10px 30px
+        margin: 0 0 85px 0
+    .contact-container-icon-wrapper
+        width: 15%
+        display: flex
+        justify-content: space-between
+    p:last-child
+        font-family: 'Roboto', sans-serif
+        font-size: 15px
+        color: #828282
+        margin-top: 45px
+        margin-bottom: 130px
+
+
+
+@media screen and (max-width: 960px)
+    body
+        width: 100%
+    .header-link-container
+        display: none
+    .info-container
+        display: none
+    .header-link-container-mobile
+        display: flex
+        flex-direction: column
+        width: 80%
+        margin: 0 auto
+    .header-link-container-mobile-name
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding-top: 65px
+        h2
+            font-family: 'Roboto', sans-serif
+            font-weight: 900
+            font-size: 40px
+            width: 30%
+            margin: 0 0 25px 0
+        button
+            outline: none
+            border: none
+            background-color: white
+            img
+                width: 33px
+                margin-top: 18px
+                position: relative
+        button:active
+
+    .photo-container
+        background-image: url("../img/ebalo-mobile-2.png")
+        margin: 0 auto 0 auto
+
+    .info-container-prof
+        p
+            font-family: 'Roboto', sans-serif
+            font-weight: 500
+            font-size: 18px
+            margin: 0
+        p:last-child
+            margin-bottom: 30px
+
+    .header-link-menu-mobile
+        display: none
+    .header-link-menu-mobile-active
+        display: block
+        background-color: white
+        position: absolute
+        height: 1000px
+        width: 100%
+        padding-top: 10px
+        .header-link-active-mobile
+            margin-bottom: 70px
+            a
+                font-family: 'Roboto', sans-serif
+                font-weight: 500
+                font-size: 25px
+                text-decoration: none
+                color: black
+        .header-link-mobile
+            margin-bottom: 70px
+            a
+                font-family: 'Roboto', sans-serif
+                font-weight: 500
+                font-size: 25px
+                text-decoration: none
+                color: #828282
+    .skills-container
+        .skills-container-item
+            text-align: center
+            h2
+                margin: 0 auto 40px auto
+            flex-direction: column
+            .skills-container-item-card-stars
+                margin-bottom: 90px
+    .portfolio-container
+        .portfolio-container-img-one
+            height: 300px
+        .portfolio-container-img-two
+            height: 300px
+        .portfolio-container-img-three
+            height: 300px
+    
+    .contact-container-icon-wrapper
+        width: 50% !important
+
+
+@media screen and (max-width: 400px)
+    .portfolio-container
+        .portfolio-container-img-one
+            height: 150px
+        .portfolio-container-img-two
+            height: 150px
+        .portfolio-container-img-three
+            height: 150px
